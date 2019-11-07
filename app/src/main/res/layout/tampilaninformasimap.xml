@@ -1,0 +1,37 @@
+<androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="7dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="7dp"
+
+>
+    <FrameLayout
+
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+        <ImageView android:layout_width="match_parent"
+                   android:layout_height="200dp"
+                   android:id="@+id/imginformasi"
+                   android:scaleType="fitXY"
+        />
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="tidak ada nama"
+                  android:textSize="18sp"
+                  android:textColor="@android:color/white"
+                  android:gravity="center"
+                  android:background="#25000000"
+                  android:textStyle="bold"
+
+                  android:layout_gravity="bottom"
+                  android:layout_weight="1"
+                  android:id="@+id/txtjudulinformasi"
+        />
+
+
+    </FrameLayout>
+</androidx.cardview.widget.CardView>

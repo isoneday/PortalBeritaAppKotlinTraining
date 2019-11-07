@@ -1,0 +1,59 @@
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+><androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="7dp"
+        app:cardCornerRadius="7dp"
+
+>
+    <LinearLayout
+
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+        <ImageView android:layout_width="match_parent"
+                   android:layout_height="200dp"
+                   android:id="@+id/imgberita"
+                   android:scaleType="fitXY"
+        />
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="nama buah"
+                  android:textSize="25sp"
+                  android:gravity="center"
+                  android:textStyle="bold"
+
+                  android:layout_gravity="center"
+                  android:layout_weight="1"
+                  android:id="@+id/txtnamaberita"
+        />
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="horizontal"
+        >
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:id="@+id/txtpenulis"
+                      android:text="penulis"
+                      android:layout_marginLeft="10dp"
+                      android:layout_weight="1"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:id="@+id/txttanggal"
+                      android:text="tanggal"
+                      android:gravity="right"
+                      android:layout_marginRight="10dp"
+                      android:layout_weight="1"/>
+
+
+        </LinearLayout>
+        <TextView android:layout_width="match_parent" android:layout_height="match_parent"
+                  android:id="@+id/txtdetail"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+</ScrollView>
